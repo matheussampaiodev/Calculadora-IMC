@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="plano-de-saude.png" type="image/x-icon">
+</head>
+<body>
+    <article class="container">
+        <h1>Calculadora IMC</h1>
+        <section class="campo-peso">
+            <label for="input-peso">Peso</label>
+            <input type="number" name="input-peso" id="input-peso" maxlength="6" placeholder="Digite o seu peso" required>
+        </section>
+
+        <section class="campo-altura">
+            <label for="input-altura">Altura</label>
+            <input type="number" name="input-altura" id="input-altura" maxlength="4" placeholder="Digite a sua altura" required>
+        </section>
+
+        <button onclick="calcular()">Calcular</button>
+        
+        <section class="resultado">
+            <p>Resultado aqui</p>
+        </section>
+    </article>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

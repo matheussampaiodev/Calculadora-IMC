@@ -1,0 +1,74 @@
+:root {
+    --verde: #183D3D;
+    --preto: #040D12;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--preto);
+}
+
+.container {
+    background-color: var(--verde);
+    height: 55vh;
+    width: 70vw;
+    max-width: 450px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    > h1 {
+        color: white;
+        font-size: 2rem;
+        text-align: center;
+    }
+    > .campo-peso {
+        margin: 30px 0;
+        > label {
+            font-size: 1.5rem;
+            color: white;
+        }
+        > input {
+            height: 25px;
+            width: 70%;
+            outline-style: none;
+            float: right;
+            font-size: 1rem;
+        }
+    }
+    > .campo-altura {
+        margin: 30px 0;
+        > label {
+            font-size: 1.5rem;
+            color: white;
+        }
+        > input {
+            height: 25px;
+            width: 70%;
+            outline-style: none;
+            float: right;
+            font-size: 1rem;
+        }
+    }
+    > button {
+        width: 100%;
+        height: 50px;
+        font-size: 1.5rem;
+        border-radius: 10px;
+        border-style: none;
+        margin-bottom: 30px;
+    }
+    > .resultado {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color: white;
+        height: 50px;
+        padding: 5px;
+        border-radius: 10px;
+        font-size: 1.5rem;
+    }
+}
